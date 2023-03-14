@@ -6,7 +6,36 @@
 </head>
 <body>
 <script>
-    // TODO: Your JavaScript implementation for loose variable typing experiments goes here.
+    
+    let number = 15;
+    let stringNumber = "1234";
+    let string = "Test";
+    let array = [5, 10, 15];
+
+    let addNumberStringNumber = number + stringNumber;
+    console.log(addNumberStringNumber); 
+    console.log(typeof addNumberStringNumber);
+    
+    let multNumberStringNumber = number * stringNumber;
+    console.log(multNumberStringNumber);
+    console.log(typeof multNumberStringNumber);
+
+    let addNumberString = number + string
+    console.log(addNumberString);
+    console.log(typeof addNumberString);
+
+    let multNumberString = number * string;
+    console.log(multNumberString);
+    console.log(typeof multNumberString);
+
+    let addNumberArray = number + array;
+    console.log(addNumberArray);
+    console.log(typeof addNumberArray);
+
+    let multNumberArray = number * array;
+    console.log(multNumberArray);
+    console.log(typeof multNumberArray);
+
 </script>
 </body>
 </html>
